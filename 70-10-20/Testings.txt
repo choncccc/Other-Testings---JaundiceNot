@@ -1,11 +1,21 @@
-Testings (Callbacks and Learning Rate = 0.0005) + 4 Layers 512...64
+Testings (Callbacks and Learning Rate = 0.0005) + 4 Layers 512...64 @ 70-10-20
 
-No Augmentation Histogram
-	- 50 E and 8 BS = Test Accuracy: 0.7778, Test Precision: 0.8333, Test Recall: 0.6250
-	- 50 E and 16 BS= Test Accuracy: 0.8333, Test Precision: 0.8663, Test Recall: 0.6250
-	- 50 E and 32 BS = Test Accuracy: 0.8333, Test Precision: 0.8663, Test Recall: 0.6250
-	- 50 E and 64 BS = Test Accuracy: 0.7778, Test Precision: 0.8333, Test Recall: 0.6250
-	- NOTHING Changed 100 E and 8, 16, 32 and 64 BS!
+No Augmentation KMeans 
+	- 50 E and 8 BS = Test Accuracy: 0.5789, Test Precision: 0.5714, Test Recall: 0.4444
+	- 50 E and 16 BS= Test Accuracy: 0.6316, Test Precision: 0.6667, Test Recall: 0.4444
+	- 50 E and 32 BS = Accuracy: 68.42 || Precision: 80.00 || Recall 44.44
+	- 50 E and 64 BS = Test Accuracy: 0.5789, Test Precision: 0.5714, Test Recall: 0.4444
+	- 100 E and 8 BS =  Test Accuracy: 0.5789, Test Precision: 0.6000, Test Recall: 0.3333
+	- 100 E and 16 BS = Test Accuracy:  0.5263, Test Precision: 0.5000, Test Recall: 0.3333
+	- 100 E and 32 BS = Test Accuracy: 0.6316, Test Precision: 0.6667, Test Recall: 0.4444
+	- 100 E and 64 BS = Test Accuracy: 0.5789, Test Precision: 0.5714, Test Recall: 0.4444
 
-No Augmentation KMeans
-	- 50 E and 8 BS = Test Accuracy: 0.5556, Test Precision: 0.5000, Test Recall: 0.6250
+No Augmentation Histo
+	- 50 E and 8 BS = Test Accuracy: 0.6842, Test Precision: 0.6667, Test Recall: 0.6667
+	- 50 E and 16 BS = Test Accuracy: 0.6316, Test Precision: 0.6250, Test Recall: 0.5556
+	- 50 E and 32 BS = Test Accuracy: 0.7368, Test Precision: 0.7000, Test Recall: 0.7778
+	- 50 E and 64 BS = Test Accuracy: 0.7895, Test Precision: 0.7778, Test Recall: 0.7778
+	- 100 E an 8bs = Test Accuracy: 0.6316, Test Precision: 0.6000, Test Recall: 0.6667
+	- 100 E and 16 BS = 0.7895, Test Precision: 0.8571, Test Recall: 0.6667
+	- 100E and 32 BS = Test Accuracy: 0.7895, Test Precision: 0.7778, Test Recall: 0.7778
+	- 100 E and 64 BS =  est Accuracy: 0.6842, Test Precision: 0.6667, Test Recall: 0.6667
