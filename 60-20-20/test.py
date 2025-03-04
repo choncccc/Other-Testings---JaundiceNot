@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-model = tf.keras.models.load_model("KmeansHistogramYellow.keras")
+model = tf.keras.models.load_model("finalModelJaundiceNot.keras")
 
 def extract_yellow_histogram_features(image, bins=10, visualize=False):
     lab_image = cv2.cvtColor(image.astype(np.uint8), cv2.COLOR_RGB2LAB)
@@ -51,7 +51,7 @@ def predict_jaundice(image_path):
     print(prediction)
     return "Jaundiced" if prediction >= 0.50 else "Normal"
 
-image_path = "healthy.jpg"
+image_path = "image_55.jpeg"
 image = cv2.imread(image_path)
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
